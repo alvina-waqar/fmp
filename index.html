@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!--1. owl carousel min.css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--2. Owl carousel theme min.css-->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>The Cake Gallery</title>
+</head>
+
+<body>
+    <!-- <div> -->
+    <div class="sticky-top">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white" style="height: 80px;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="pictures/logo.jpg" alt="" class="mx-4" style="width: 70px; height: 60px; ">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item px-3 n-content">
+                                <a class="nav-link active" aria-current="page" href="index.html"><span> Home</span></a>
+                            </li>
+                            <li class="nav-item px-3 n-content">
+                                <a class="nav-link" id="about" href="about.html"><span> About</span></a>
+                            </li>
+                            <li class="nav-item px-3 n-content">
+                                <a class="nav-link" href="cakes.html"><span>Cakes</span></a>
+                            </li>
+                            <li class="nav-item px-3 n-content">
+                                <a class="nav-link" href="cupcakes.html"><span>Cupcakes</span></a>
+                            </li>
+                            <li class="nav-item px-3 n-content">
+                                <a class="nav-link" href="desserts.html"><span>Platters</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <!-- </div> -->
+    <div class="bg-white mb-3">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="pictures/Cakes 2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-bold" style="font-size:30px ;">Cakes</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pictures/brooke-lark-pGM4sjt_BdQ-unsplash.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-bold" style="font-size:30px ;">CupCakes</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pictures/bv.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-bold mt-3" style="font-size:30px ;">Brownies</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="pictures/cookies (2).jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fw-bold" style="font-size:30px ;">Cookies</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="container box">
+            <div class="row">
+                <div class="col-md-5 ms-auto py-3 pic">
+                    <img src="pictures/sincerely-media-YzfyQZkn3mU-unsplash.jpg" alt=""
+                        style="width:300px; height: 300px;">
+                </div>
+                <div class="col-md-6 para">
+                    <h3>About Us</h3>
+                    <p class="pt-4">
+                        I grew up seeing my aunt baking cakes to celebrate family occasions,i just kept sitting watching
+                        her doing this interesting art of baking. It was my inspiration to this path.Cake is the only
+                        thing that pops up to a mind to celebrate happy moments and we decided to add sweetness to your
+                        event by providing our crumpscious,quality products to your doorstep.We aim to provide
+                        fresh,hygienic and delicious items that are fully handmade by the owner with love as we believe
+                        your profession must be your passion!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white pt-4">
+        <div class="container-lg bg-light">
+            <div class="container-fluid">
+                <h2 class="text-center pb-3">OUR BEST CAKES</h2>
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card shadow" style="border-bottom: 5px solid #283618;">
+                                <div class="m-2">
+                                    <img src="pictures/edited/b.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body">
+                                    <p>Baby Theme Cake</p>
+                                    <h5>Rs.1300/lbs (Minimum 3.5lbs)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mb-4">
+                            <div class="card shadow" style="border-bottom: 5px solid #283618;">
+                                <div class="m-2">
+                                    <img src="pictures/edited/nikah.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p>Nikkah Cake</p>
+                                    <h5>Rs.1300/lbs (Minimum 3.5lbs)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card shadow" style="border-bottom: 5px solid #283618;">
+                                <div class="m-2">
+                                    <img src="pictures/edited/bride to be.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p>Bride to be Cake</p>
+                                    <h5>Rs.1300/lbs (Minimum 4lbs)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card shadow" style="border-bottom: 5px solid #283618;">
+                                <div class="m-2">
+                                    <img src="pictures/edited/gold.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p>White and Gold theme cake</p>
+                                    <h5>Rs.1250/lbs (Minimum 3lbs)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card shadow" style="border-bottom: 5px solid #283618;">
+                                <div class="m-2">
+                                    <img src="pictures/edited/e.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p>Floral Engagement Cake</p>
+                                    <h5>Rs.1300/lbs (Minimum 3lbs)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card shadow" style="border-bottom: 5px solid #283618;">
+                                <div class="m-2">
+                                    <img src="pictures/edited/pink.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p>Peach theme Floral Cake</p>
+                                    <h5>Rs.1200/lbs (Minimum 7lbs)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card shadow" style="border-bottom: 5px solid #283618;">
+                                <div class="m-2">
+                                    <img src="pictures/bouquet 1.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p>Bouquet Cake</p>
+                                    <h5>Rs.1250/lbs (Minimum 4lbs)</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card shadow" style="border-bottom: 5px solid #283618;">
+                                <div class="m-2">
+                                    <img src="pictures/chocolate 1.jpg" alt="" class="card-img-top">
+                                </div>
+                                <div class="card-body text-center">
+                                    <p>Chocolate Loaded Cake</p>
+                                    <h5>Rs.5000 for 5lbs</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container foot-con">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="vcenter ">
+                        <ul class="">
+                            <li>
+                                <a href="https://www.facebook.com/cakebyallyy/">
+                                    <span class="fa-stack fa-lg ">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/_thecakegallery_?utm_medium=copy_link">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/923332101089">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-whatsapp fa-stack-1x fa-inverse" aria-hidden="true"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 main-footer">
+                    <div class="p-4">
+                        <ul>
+                            <li class="px-2">
+                                <a href="about.html">About</a>
+                            </li>
+                            <li class="px-2">
+                                <a href="cakes.html">Cakes</a>
+                            </li>
+                            <li class="px-2">
+                                <a href="desserts.html">Platters</a>
+                            </li>
+                            <li class="px-2">
+                                <a href="cupcakes.html">Cupcakes</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+    <!-- lets include files -->
+
+    <!-- 0.jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- 1. owl carousel min.js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
